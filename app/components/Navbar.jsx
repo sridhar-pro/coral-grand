@@ -9,7 +9,7 @@ const Navbar = () => {
     };
   
     return (
-      <header className="fixed top-0 inset-x-0 z-50 h-20 flex items-center bg-black bg-opacity-10 backdrop-blur-md">
+      <header className="fixed top-0 inset-x-0 z-50 h-20 flex items-center bg-white bg-opacity-10 backdrop-blur-md">
         <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-10 lg:px-2 h-full items-center mt-1">
           <nav className="flex justify-between items-center h-full">
           <div className="flex min-w-max items-center">
@@ -52,7 +52,7 @@ const Navbar = () => {
               <div className="w-full flex sm:w-max lg:min-w-max lg:items-center">
                 <Link
                   href="#"
-                  className="flex justify-center gap-x-3 items-center uppercase italic text-gray-200 hover:text-gray-900 border-b bg-gray-700 hover:border-b-gray-900 bg-transparent"
+                  className="flex justify-center gap-x-3 items-center uppercase italic text-gray-300 hover:text-gray-900 border-b bg-gray-700 hover:border-b-gray-900 bg-transparent"
                 >
                   Contact Us
                   <span>
