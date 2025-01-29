@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaHammer, FaCog, FaCloud } from 'react-icons/fa';
+import { FaHammer, FaCog, FaTruckMoving } from 'react-icons/fa';
 import FadeIn from "./Contact/FadeIn";
 
 const features = [
@@ -47,21 +47,21 @@ const features = [
   },
   {
     id: 3,
-    title: "Work Offline and Sync Once Connected",
-    icon: <FaCloud />,
-    description: "Our ground works team operates with full efficiency, even in remote locations, with offline capabilities for reporting.",
+    title: "Precision Earthmoving and Grading Services",
+    icon: <FaTruckMoving />,
+    description: "Our expert earthmoving and grading services ensure a stable and well-prepared construction site for any project size.",
     advantages: [
       {
         id: 1,
-        text: "Capture data and photos on-site without internet"
+        text: "Accurate land grading for proper drainage"
       },
       {
         id: 2,
-        text: "Automatic synchronization when back online"
+        text: "Heavy-duty machinery for efficient earthmoving"
       },
       {
         id: 3,
-        text: "Track project progress even in off-grid areas"
+        text: "Optimized terrain for safe and stable foundations"
       },
     ],
     image: "/1.webp"

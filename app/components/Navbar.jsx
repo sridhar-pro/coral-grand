@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-10 lg:px-2 h-full items-center mt-1">
         <nav className="flex justify-between items-center h-full">
           <div className="flex min-w-max items-center">
-            <img src="/Logo2.png" alt="Logo" className="h-14 w-14" />
+            <img src="/Logo2.webp" alt="Logo" className="h-14 w-14" />
             <Link
               href="/"
               className="flex items-center gap-x-4 text-2xl font-semibold uppercase text-gray-950 flex-col ml-1"
