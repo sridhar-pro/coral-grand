@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Noto_Sans } from "next/font/google";
+import { Geist, Geist_Mono, Noto_Sans, Inter } from "next/font/google";
 import { Geologica } from 'next/font/google';
 import "./globals.css";
 
@@ -22,6 +22,12 @@ const notoSans = Noto_Sans({
   weight: ['400', '700'], // Adjust weights as needed
 });
 
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '700'], // Adjust weights as needed
+});
+
+
 export const metadata = {
   title: "Coral Grand Property Developers",
   description: "Property Developers in coimbatore",
@@ -32,7 +38,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className={notoSans.className}
+        className={inter.className}
       >
         {children}
       </body>

@@ -15,7 +15,7 @@ return (
             </div>
             <div className="grid sm:grid-cols-2 gap-6 md:gap-8 lg:gap-10">
                 <div className="relative aspect-[5/3.8] rounded-lg overflow-hidden">
-                    <Image src="/4.jpg" alt="project cover" width={1300} height={900} className="w-full h-full object-cover" />
+                    <Image src="/4.webp" alt="project cover" width={1300} height={900} className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-800 flex flex-col justify-end p-5 space-y-5 text-gray-300">
                     <h1 className="font-semibold text-white text-2xl">
                         Quality Construction Services 

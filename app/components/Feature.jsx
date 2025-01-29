@@ -22,7 +22,7 @@ const features = [
         text: "Adherence to local regulations and standards"
       },
     ],
-    image: "/2.jpg"
+    image: "/2.webp"
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const features = [
         text: "Cost-effective solutions with long-term benefits"
       },
     ],
-    image: "/3.jpg"
+    image: "/3.webp"
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ const features = [
         text: "Track project progress even in off-grid areas"
       },
     ],
-    image: "/1.jpg"
+    image: "/1.webp"
   },
 ];
   
