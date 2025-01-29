@@ -29,22 +29,22 @@ const Navbar = () => {
             >
               <ul className="flex flex-col gap-y-5 text-gray-800 lg:items-center lg:flex-row lg:gap-x-10 lg:h-full lg:justify-center lg:flex-1 uppercase ">
                 <li>
-                  <Link href="#" className="transition ease-linear hover:text-gray-900">
+                  <Link href="#" className="transition ease-linear hover:text-gray-200">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="transition ease-linear hover:text-gray-900">
+                  <Link href="#" className="transition ease-linear hover:text-gray-200">
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="transition ease-linear hover:text-gray-900">
+                  <Link href="#" className="transition ease-linear hover:text-gray-200">
                     Services
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="transition ease-linear hover:text-gray-900">
+                  <Link href="#" className="transition ease-linear hover:text-gray-200">
                     Careers
                   </Link>
                 </li>
