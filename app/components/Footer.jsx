@@ -3,7 +3,7 @@ import Link from "next/link"
 const FooterItem = ({ text, link }) => {
     return (
         <li>
-            <Link href={link} className="duration-200 hover:text-yellow-500 dark:hover:text-yellow-400">
+            <Link href={link} className="duration-200 hover:text-blue-500 ">
                 {text}
             </Link>
         </li>

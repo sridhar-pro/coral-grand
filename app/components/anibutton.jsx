@@ -4,7 +4,7 @@ export default function BrutalistButton() {
   
         {/* Button Text */}
         <div className="flex flex-col leading-[1.2] transform transition-transform group-hover:skew-x-[-5deg] group-active:skew-x-[5deg]">
-          <span className="text-[16px] uppercase ml-4">Let's Connect</span>
+          <span className="text-[16px] uppercase ml-4">Joint Ventures</span>
         </div>
   
         {/* Sliding Animation */}

@@ -43,7 +43,7 @@ const ContactDetails = () => {
         <h2 className="font-display text-base font-semibold text-neutral-950">
           Follow us
         </h2>
-        <SocialMedia className="mt-6" />
+        <SocialMedia className="mt-6 mb-6" />
       </Border>
     </FadeIn>
   );
