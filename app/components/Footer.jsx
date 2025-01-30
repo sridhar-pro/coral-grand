@@ -39,9 +39,9 @@ const footerBlocks = [
         id: 2,
         title: "Services",
         items: [
-            { id: 1, text: "General Contracting", link: "/services/general-contracting" },
-            { id: 2, text: "Architectural Design", link: "/services/architectural-design" },
-            { id: 3, text: "Renovation", link: "/services/renovation" },
+            { id: 1, text: "Residential Construction", link: "/services/residential-construction" },
+            { id: 2, text: "Commercial Construction", link: "/services/commercial-construction" },
+            { id: 3, text: "Consulting", link: "/services/consulting" },
         ]
     },
     {
