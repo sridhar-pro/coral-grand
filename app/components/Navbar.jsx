@@ -57,7 +57,7 @@ const Navbar = () => {
             <ul className="flex flex-col gap-y-5 text-gray-800 lg:items-center lg:flex-row lg:gap-x-10 lg:h-full lg:justify-center lg:flex-1 uppercase">
               <li>
                 <Link
-                  href="#"
+                  href="/about"
                   className="transition ease-linear hover:text-gray-200"
                 >
                   About Us

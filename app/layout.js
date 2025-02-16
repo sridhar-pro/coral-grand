@@ -2,6 +2,10 @@ import { Geist, Geist_Mono, Noto_Sans, Inter } from "next/font/google";
 import { Geologica } from 'next/font/google';
 import "./globals.css";
 
+import dynamic from "next/dynamic";
+const Navbar = dynamic(() => import("./components/Navbar"));
+const FooterBlock = dynamic(() => import("./components/Footer"));
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -36,11 +40,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={inter.className}
       >
+        <Navbar />
         {children}
+        <FooterBlock />
       </body>
     </html>
   );
