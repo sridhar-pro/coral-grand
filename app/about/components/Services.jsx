@@ -1,7 +1,7 @@
 'use client'
 import { FaBuilding,FaHammer} from 'react-icons/fa';
-// import Link from "next/link";
-import { motion } from "framer-motion"; // Import motion from framer-motion
+import Link from "next/link";
+import { motion } from "framer-motion"; 
 
 const ServiceCard = ({ title, description, icon }) => {
   return (
@@ -21,12 +21,12 @@ const ServiceCard = ({ title, description, icon }) => {
     <p className="text-gray-700 text-justify line-clamp-3">
       {description}
     </p>
-    {/* <Link href="#" className="text-sky-700 flex items-center gap-x-3 w-max">
+    <Link href="#" className="text-sky-700 flex items-center gap-x-3 w-max">
       Get a free consultation
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
         <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd" />
       </svg>
-    </Link> */}
+    </Link>
   </div>
 </div>
 
@@ -58,18 +58,6 @@ const services = [
     description: "From the initial concept to the final completion, we handle every phase of the construction process.",
     icon: <FaHammer />
   },
-  // {
-  //   id: 5,
-  //   title: "5. Interview Preparation",
-  //   description: "We guide you in all possible visa interview preparations so you are best prepared for the visa interview process.",
-  //   icon: <FaMicrophone />
-  // },
-  // {
-  //   id: 6,
-  //   title: "6. Visa Approval & Travel Services",
-  //   description: "Once the visa is approved, we provide services to help you travel without stress and make your move abroad very smooth.",
-  //   icon: <FaPlaneDeparture />
-  // },
 ];
 
 const Features = () => {
@@ -84,7 +72,7 @@ const Features = () => {
   return (
     <section
   className="py-10"
-  style={{ backgroundImage: 'url(/comp-22.webp)' }}
+  // style={{ backgroundImage: 'url(/comp-22.webp)' }}
 >
   <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col items-center gap-10 xl:gap-14">
     <div className="flex flex-col gap-5">
@@ -99,7 +87,7 @@ const Features = () => {
         </motion.h1>
       </div>
       <motion.p
-        className="text-gray-700 uppercase italic text-center"
+        className="text-gray-700 uppercase italic text-left lg:text-center"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -133,18 +121,6 @@ const Features = () => {
       ))}
     </motion.div>
 
-    {/* Centering the button */}
-    {/* <motion.div
-      variants={itemVariants}
-      className="flex justify-center items-center w-full"
-    >
-      <Link
-        href="#"
-        className="px-6 h-11 flex items-center bg-blue-600 rounded-lg text-white"
-      >
-        Book Free Consultation
-      </Link>
-    </motion.div> */}
   </div>
 </section>
 

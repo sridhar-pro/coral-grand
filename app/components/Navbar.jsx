@@ -46,7 +46,7 @@ const Navbar = () => {
 
           <div
             className={`flex flex-col space-y-10 inset-0 fixed top-0 h-[100dvh] bg-white lg:!bg-transparent py-20 px-5 sm:px-10 md:px-14
-                transition-all ease-linear duration-300 lg:flex-row lg:flex-1 lg:py-0 lg:px-0 lg:space-y-0 lg:gap-x-10 lg:relative lg:top-0 lg:h-full lg:items-center lg:justify-between lg:w-max
+                transition-all ease-linear duration-300 lg:flex-row lg:flex-1 lg:py-0 lg:px-0 lg:space-y-0 lg:gap-x-0 lg:relative lg:top-0 lg:h-full lg:items-center lg:justify-between lg:w-max
                 ${
                   openNavbar
                     ? "visible opacity-100 translate-y-0"
@@ -55,6 +55,14 @@ const Navbar = () => {
               `}
           >
             <ul className="flex flex-col gap-y-5 text-gray-800 lg:items-center lg:flex-row lg:gap-x-10 lg:h-full lg:justify-center lg:flex-1 uppercase">
+            <li>
+                <Link
+                  href="/"
+                  className="transition ease-linear hover:text-gray-200"
+                >
+                  Home
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/about"

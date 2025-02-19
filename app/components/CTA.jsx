@@ -19,22 +19,22 @@ const CtaSection = () => {
                     </div>
                     <div className="mx-auto text-center max-w-xl md:max-w-2xl relative space-y-8">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-950">
-    Build Your Dream Project with <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 from-20% via-indigo-400 via-30% to-teal-600">Expert Construction</span> Services
-</h1>
-<p className="text-gray-700">
-    We provide reliable and high-quality construction services. From planning and design to completion, our team of experts ensures every project is built to perfection.
-</p>
-<div className="mx-auto max-w-md sm:max-w-xl flex justify-center">
-    <button className="outline-none h-12 px-5 rounded-xl bg-blue-600 text-white flex items-center">
-        Get In Touch
-    </button>
-</div>
-
+                        Build Your Dream Project with <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-600 from-20% via-indigo-400 via-30% to-teal-600">Expert Construction</span> Services
+                    </h1>
+                    <p className="text-gray-700">
+                        We provide reliable and high-quality construction services. From planning and design to completion, our team of experts ensures every project is built to perfection.
+                    </p>
+                    <div className="mx-auto max-w-md sm:max-w-xl flex justify-center">
+                        <button className="outline-none h-12 px-5 rounded-xl bg-blue-600 text-white flex items-center">
+                            Get In Touch
+                        </button>
                     </div>
-                </div>
-            </div>
-        </section>
-    )
-}
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        )
+                    }
 
 export default CtaSection;

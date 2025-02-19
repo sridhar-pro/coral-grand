@@ -40,27 +40,27 @@ return (
                     <Image src="/4.webp" alt="project cover" width={1300} height={1000} className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-800  flex flex-col justify-end p-5 space-y-5 text-gray-300">
                     <h1 className="font-semibold text-white text-2xl">
-    Building the Future, One Project at a Time
-</h1>
-<p className="text-gray-300 line-clamp-2">
-    From residential homes to large-scale commercial developments, we provide reliable, high-quality construction services. Our team ensures every project is executed with excellence, precision, and the highest standards of safety.
-</p>
+                        Building the Future, One Project at a Time
+                    </h1>
+                    <p className="text-gray-300 line-clamp-2">
+                        From residential homes to large-scale commercial developments, we provide reliable, high-quality construction services. Our team ensures every project is executed with excellence, precision, and the highest standards of safety.
+                    </p>
 
-                        <div className="w-max">
-                            <Link href="#" className="group flex items-center gap-x-3 text-gray-100 font-medium border-b border-gray-800">
-                                View details
-                                <span className="duration-300 ease-linear group-hover:pl-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
-                                        <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd" />
-                                    </svg>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-)
-}
+                                            <div className="w-max">
+                                                <Link href="#" className="group flex items-center gap-x-3 text-gray-100 font-medium border-b border-gray-800">
+                                                    View details
+                                                    <span className="duration-300 ease-linear group-hover:pl-2">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+                                                            <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    )
+                    }
 export default PortfolioSection

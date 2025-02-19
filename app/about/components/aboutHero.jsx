@@ -47,7 +47,7 @@ export default function HeroSection() {
       >
         
         <motion.h1
-                className="text-7xl text-white text-center font-extrabold uppercase max-w-[60rem] mt-5"
+                className="text-6xl md:text-7xl text-white text-center font-extrabold uppercase max-w-[60rem] mt-10"
                 style={{
                   textShadow: "1px 1px 0px gray, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black",
                   letterSpacing: "1.5px",
@@ -88,7 +88,7 @@ export default function HeroSection() {
       >
         <motion.div
           variants={containerVariants(1)}
-          className="absolute right-0 lg:right-28 left-9 lg:left-0 bottom-0 lg:bottom-28  h-[calc(190%-100px)]  lg:h-[calc(80%-10px)] tablet:h-[calc(100%-10px)] w-[24rem] lg:w-4/5 rounded-3xl overflow-hidden border-4 border-gray-200 z-30 p-6 bg-white shadow-2xl"
+          className="absolute right-0 lg:right-28 left-0 lg:left-0 bottom-0 lg:bottom-28  h-[calc(190%-100px)]  lg:h-[calc(80%-10px)] tablet:h-[calc(100%-10px)] w-[24rem] lg:w-4/5 rounded-3xl overflow-hidden border-4 border-gray-200 z-30 p-6 bg-white shadow-2xl"
         >
           <h2 className="text-2xl font-bold text-gray-800 mb-2 uppercase text-center">
             Get Free Assistance
@@ -140,7 +140,7 @@ export default function HeroSection() {
               </label>
               <input
                 type="text"
-                id="name"
+                id="message"
                 className="mt-1 block w-full px-4 py-4 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-600 bg-white text-gray-900 hover:border-blue-500 transition-all duration-300"
                 placeholder="Your Message"
                 required
@@ -150,6 +150,7 @@ export default function HeroSection() {
             <div className="flex justify-center">
               <button
                 type="submit"
+                id='button'
                 className="w-full px-6 py-2 max-w-xs text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-600 transition ease-in-out duration-300 mt-2"
               >
                 Submit
