@@ -43,11 +43,11 @@ export default function HeroSection() {
       {/* Left Section (Text) */}
       <motion.div
         variants={containerVariants(0.4)}
-        className="flex flex-col space-y-8 sm:space-y-10 lg:items-center text-center lg:text-left max-w-2xl md:max-w-3xl mx-auto mb-0 lg:mb-0 relative z-10"
+        className="flex flex-col space-y-8 sm:space-y-10  lg:items-center text-center lg:text-left max-w-2xl md:max-w-3xl mx-auto mb-0 lg:mb-0 relative z-10"
       >
         
         <motion.h1
-                className="text-6xl md:text-7xl text-white text-center font-extrabold uppercase max-w-[60rem] mt-10"
+                className="text-6xl md:text-7xl text-white text-left lg:text-center font-extrabold uppercase max-w-[60rem] mt-10"
                 style={{
                   textShadow: "1px 1px 0px gray, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black",
                   letterSpacing: "1.5px",

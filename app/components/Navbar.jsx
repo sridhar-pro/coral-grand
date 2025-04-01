@@ -73,7 +73,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/projects"
                   className="transition ease-linear hover:text-gray-200"
                 >
                   Projects
@@ -81,7 +81,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/services"
                   className="transition ease-linear hover:text-gray-200"
                 >
                   Services
@@ -89,7 +89,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/careers"
                   className="transition ease-linear hover:text-gray-200"
                 >
                   Careers
@@ -98,7 +98,7 @@ const Navbar = () => {
             </ul>
             <div className="w-full flex sm:w-max lg:min-w-max lg:items-center">
               <Link
-                href="#"
+                href="/contact"
                 className="flex justify-center gap-x-3 items-center uppercase italic text-gray-300 hover:text-gray-900 border-b bg-gray-700 hover:border-b-gray-900 bg-transparent"
               >
                 Contact Us
