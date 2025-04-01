@@ -41,7 +41,7 @@ export default function HeroSection() {
           
 
           {/* Content Wrapper */}
-          <div className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5">
+          <div className="relative mx-auto lg:max-w-7xl w-full px-0 md:px-12 lg:px-5">
             <div className="flex flex-col items-start space-y-10">
               {/* Hero Heading */}
               <motion.h1
