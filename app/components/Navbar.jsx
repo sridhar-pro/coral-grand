@@ -89,10 +89,10 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/careers"
+                  href="/joint-ventures"
                   className="transition ease-linear hover:text-gray-200"
                 >
-                  Careers
+                  Joint Ventures
                 </Link>
               </li>
             </ul>
